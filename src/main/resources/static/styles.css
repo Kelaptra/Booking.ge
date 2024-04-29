@@ -1,0 +1,26 @@
+.scroll-box {
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.row button {
+    margin-right: 10px;
+}
+
+.hotel-name {
+    width: 50%;
+    text-align: left;
+}
+
+.hotel-roomCOunts {
+    width: 50%;
+    text-align: right;
+}
